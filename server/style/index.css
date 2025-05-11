@@ -1,0 +1,119 @@
+
+.top-menu-bar {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  /* justify-content: space-between; */
+  background-color: lightblue;
+  padding: 10px;
+  }
+.top-menu-bar div {
+  margin-right: 20px;
+}
+
+.editor-select {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  /* justify-content: space-between; */
+  background-color: lightblue;
+  padding: 10px;
+}
+.editor-select div {
+  margin-right: 20px;
+}
+
+.row-column-menu {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.input-row {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  /* justify-content: space-between; */
+  /* background-color: lightblue; */
+  padding: 10px;
+}
+
+
+.row-function-col {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: space-between;
+  /* background-color: lightblue; */
+}
+
+.col-function-row {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: space-between;
+  padding: 0px;
+  /* background-color: lightblue; */
+}
+/* .col-function-row button {
+  flex-basis: 50px;
+  flex-grow: 1;
+} */
+
+.col {
+  max-width: 300px;
+  min-width: 150px;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+.file-row {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: space-between;
+  /* background-color: lightblue; */
+}
+
+.login-div {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+
+  padding: 100px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rows {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: space-between;
+  /* background-color: lightblue; */
+}
+
+.flex-row {
+  
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: start;
+  /* background-color: lightblue; */
+}
+

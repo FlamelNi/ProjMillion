@@ -1,0 +1,32 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rows {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: space-between;
+  /* background-color: lightblue; */
+}
+
+.flex-row {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: start;
+  /* background-color: lightblue; */
+}
+
+.flex-col {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  /* switched from default (flex-start, see below) */
+  justify-content: start;
+  /* background-color: lightblue; */
+}
